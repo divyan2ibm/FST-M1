@@ -1,4 +1,4 @@
-package suiteExample;
+package Example;
 import static org.testng.Assert.assertEquals;
 import java.io.FileInputStream;
 import java.time.Duration;
