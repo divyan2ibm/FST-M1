@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="FSTTests" thread-count="4" parallel="classes"> <!-- Test Suite -->
-    <groups> <!-- Groups Control -->
-        <run>
-            <include name="HeaderTests" />
-        </run>
-    </groups>
-    <test name="FSTActivities"> <!-- Test Classes -->
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FSTTests">
+    <!-- Define Parameters -->
+    <parameter name="username" value="admin" />
+    <parameter name="password" value="password" />
+    <test name="FSTActivities">
         <classes>
-            <class name="activities.Activity5" />
-            <class name="activities.Activity4_DemoOne" />
-            <class name="activities.Activity4_DemoTwo" />
+            <!-- Correct Package and Class Name -->
+            <class name="suiteExample.Activity6" />
         </classes>
     </test>
 </suite>
