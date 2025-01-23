@@ -14,11 +14,11 @@
             <class name="testngdemo.Activity1" />
             <class name="testngdemo.Activity2" />
             <class name="testngdemo.Activity3" />
-            <class name="activities.Activity4_DemoOne" />
-            <class name="activities.Activity4_DemoTwo" />
-            <class name="activities.Activity5" />
-            <class name="activities.Activity6" />
-            <class name="activities.Activity7" />
+            <class name="suiteExample.Activity4_DemoOne" />
+            <class name="suiteExample.Activity4_DemoTwo" />
+            <class name="suiteExample.Activity5" />
+            <class name="suiteExample.Activity6" />
+            <class name="Example.Activity7" />
         </classes>
     </test>
 </suite>
