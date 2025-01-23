@@ -12,8 +12,8 @@
     <test name="FSTActivities">
         <classes>
             <class name="testngdemo.Activity1" />
-            <class name="activities.Activity2" />
-            <class name="activities.Activity3" />
+            <class name="testngdemo.Activity2" />
+            <class name="testngdemo.Activity3" />
             <class name="activities.Activity4_DemoOne" />
             <class name="activities.Activity4_DemoTwo" />
             <class name="activities.Activity5" />
