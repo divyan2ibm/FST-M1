@@ -27,7 +27,7 @@ public class ActivityProject3 {
             System.out.println("Login failed! Homepage did not load.");
         }
 
-        // Close the browser
+       
         driver.quit();
     }
 }
